@@ -1,0 +1,25 @@
+# MAC APPLE STORE AUSTRALIA
+#
+# URLs follow pattern of mas "App Name", id: 123456789, eg:
+# https://apps.apple.com/au/app/lowercase-app-name/id123456789
+#
+# Note: Names below are not always 1:1 with Store Versions eg
+# https://apps.apple.com/au/app/whatsapp-messenger/id310633997
+# ============================================================
+
+# NOTE: This is the pre-cloud 1Password 6, last version to support local 1Password vaults
+mas "1Password", id: 443987910                          # Generate & keep passwords safe
+mas "1Blocker", id: 1365531024                          # Block ads, browse better
+mas "Amphetamine", id: 937984704                        # Powerful keep-awake utility
+mas "Draw Things: AI Generation", id: 6444050820        # Create & Edit Images with AI
+# mas "Home Assistant", id: 1099568401                    # Open Source Home Automation
+mas "Hush", id: 1544743900                              # Block Cookie and Tracking Nags
+mas "Mactracker", id: 430255202                         # Reference
+mas "Magnet", id: 441258766                             # Organize Your Workspace
+mas "NordVPN", id: 905953485                            # Secure & Private VPN Servers
+mas "Numbers", id: 409203825                            # Create impressive spreadsheets
+mas "ShutterCount Pro", id: 1441290690                  # The Original
+mas "Stop the Madness Pro", id: 6471380298              # Take back your web browser
+mas "Tailscale", id: 1475387142                         # Mesh VPN based on WireGuard
+mas "Userscripts", id: 1463298887                       # User Script and Style Manager
+mas "WebSSH - SysAdmin Tools", id: 497714887            # SSH, SFTP, Telnet, Tunneling

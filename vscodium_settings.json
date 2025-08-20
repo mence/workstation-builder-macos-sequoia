@@ -1,0 +1,579 @@
+{
+  "workbench.cloudChanges.autoResume": "off",
+  "workbench.cloudChanges.continueOn": "off",
+  "workbench.enableExperiments": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "update.mode": "manual",
+
+  // Disable telemetry on common extensions
+  // https://gist.github.com/hyperupcall/99e355405611be6c4e0a38b6e3e8aad0
+  // Disable sending telemetry
+  "code-runner.enableAppInsights": false, // Code Runner
+  "docker-explorer.enableTelemetry": false, // Docker
+  "extensions.ignoreRecommendations": true, // VSCode Core
+  "julia.enableTelemetry": false, // Julia
+  "Lua.telemetry.enable": false, // Lua
+  "pros.useGoogleAnalytics": false, // PROS
+  "redhat.telemetry.enabled": false, // Red Hat
+  "rpcServer.showStartupMessage": false, // VSCode Remote Development
+  "sonarlint.disableTelemetry": true, // SonarLint
+  "telemetry.enableCrashReporter": false, // VSCode Core
+  "telemetry.enableTelemetry": false, // VSCode Core
+  "telemetry.telemetryLevel": "off", // VSCode Core
+  "terraform.telemetry.enabled": false, // HashiCorp Terraform
+
+  // Disable showing release notes
+  "gitlens.showWhatsNewAfterUpgrades": false, // GitLens
+  "java.help.showReleaseNotes": false, // Language Support for Java
+  "update.showReleaseNotes": false, // VSCode Core
+
+  // Disable showing welcome pages / walkthroughs
+  "gitlens.showWelcomeOnInstall": false, // GitLens
+  "kite.showWelcomeNotificationOnStartup": false, // Kite
+  "material-icon-theme.showWelcomeMessage": false, // Material Icon Theme
+  "pros.showWelcomeOnStartup": false, // PROS
+  "vsicons.dontShowNewVersionMessage": true, // VSCode Icons
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "security.workspace.trust.untrustedFiles": "open", // VSCode Core
+
+  "update.enableWindowsBackgroundUpdates": false,
+
+  // Disable AI BS
+  "chat.commandCenter.enabled": false,
+
+  // https://github.com/ayushgun/dots/blob/main/vscode/.config/Code/User/settings.json
+  "catppuccin.italicKeywords": false,
+  "catppuccin.italicComments": false,
+  "workbench.startupEditor": "none",
+  "files.associations": {
+    "*.json": "json"
+  },
+  "prettier.prettierPath": "prettier",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.tips.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Ayu Mirage Bordered",
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.fontFamily": "JetBrains Mono, Fira Code, Inconsolata, Menlo, Monaco, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13.5,
+  "editor.formatOnSave": true,
+  "editor.smoothScrolling": true,
+
+  "editor.inlayHints.enabled": "off",
+  "editor.renderLineHighlight": "gutter",
+  "explorer.sortOrder": "type",
+
+  // C++
+  "[cpp]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+
+  // C
+  "[c]": {
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2
+  },
+
+  // LaTeX
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "[latex]": {
+    "editor.wordWrap": "on"
+  },
+
+  // JSON
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // HTML
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // File Explorer
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+
+  // Minimal Mode
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.silentNotifications": false,
+  "zenMode.showTabs": "none",
+
+  // Terminal
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.fontSize": 18,
+
+  // Git
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "always",
+
+  // Python
+  "python.defaultInterpreterPath": "python3",
+  "python.experiments.enabled": false,
+  "notebook.formatOnSave.enabled": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
+  // Clangd (C++ LSP)
+  "clangd.checkUpdates": false,
+  "clangd.path": "/usr/bin/clangd",
+
+  // CMake (C++ Build Tool)
+  "cmake.configureOnOpen": false,
+  "cmake.showOptionsMovedNotification": false,
+
+  // Activity Bar Icons in Status Bar
+  "activitusbar.alignment": "Right",
+  "workbench.iconTheme": "ayu",
+  "security.workspace.trust.enabled": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+  "workbench.preferredDarkColorTheme": "Ayu Mirage",
+  "workbench.preferredLightColorTheme": "Ayu Light Bordered",
+  "workbench.remoteIndicator.showExtensionRecommendations": false,
+  "workbench.reduceMotion": "on",
+  "window.customTitleBarVisibility": "windowed",
+  "window.systemColorTheme": "auto",
+
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.enableLogging": false,
+
+  "scm.diffDecorationsGutterPattern": {
+    "added": true
+  },
+  "scm.diffDecorationsGutterWidth": 2,
+
+  "editor.showFoldingControls": "always",
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.sectionHeaderFontSize": 8,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fit",
+  "editor.minimap.sectionHeaderLetterSpacing": 0.8,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.lightbulb.enabled": "onCode",
+  "editor.linkedEditing": true,
+  "editor.links": false,
+  "editor.renderLineHighlightOnlyWhenFocus": true,
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollBeyondLastColumn": 8,
+  "editor.wordWrapColumn": 100,
+  "editor.cursorWidth": 3,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnType": true,
+
+  "window.density.editorTabHeight": "compact",
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "files.autoSave": "onFocusChange",
+  "search.showLineNumbers": true,
+  "notebook.lineNumbers": "on",
+
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*_Dockerfile": "dockerfile",
+    "*.bash_*": "shellscript"
+  },
+
+  "markdown.editor.filePaste.enabled": "never",
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "never",
+  "markdown.editor.updateLinksOnPaste.enabled": false,
+  "markdown.preferredMdPathExtensionStyle": "includeExtension",
+  "markdown.server.log": "debug",
+  "markdown.trace.extension": "verbose",
+  "markdown.validate.enabled": true,
+  "markdown.validate.fileLinks.enabled": "ignore",
+  "markdown.occurrencesHighlight.enabled": true,
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "markdown.preview.openMarkdownLinks": "inEditor",
+  "markdown.preview.typographer": true,
+
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "boundary",
+    "editor.trimAutoWhitespace": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+
+  "markdown-preview-enhanced.codeBlockTheme": "solarized-dark.css",
+  "markdown-preview-enhanced.enableTypographer": true,
+  "markdown-preview-enhanced.mermaidTheme": "forest",
+  "markdown-preview-enhanced.mathRenderingOnlineService": "https://latex.codecogs.com/png.latex",
+  "markdown-preview-enhanced.previewTheme": "vue.css",
+  "markdown-preview-enhanced.usePandocParser": true,
+
+  "javascript.suggestionActions.enabled": false,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleAttributePerLine": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": false,
+
+  "typescript.suggestionActions.enabled": false,
+
+  "ruby.format": "rubocop",
+
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.blame.ignoreWhitespace": true,
+  "gitlens.keymap": "none",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+
+  "syntax.highlightLanguages": [
+    "bash",
+    "c",
+    "cpp",
+    "python",
+    "typescript",
+    "typescriptreact",
+    "javascript",
+    "go",
+    "rust",
+    "php",
+    "ruby",
+    "shellscript",
+    "ocaml",
+    "lua"
+  ],
+
+  "markdownlint.config": {
+    // MD001 Heading levels should only increment by one level at a time
+    "heading-increment": false,
+
+    // MD003 - Heading style
+    "heading-style": "consistent",
+
+    // MD004 - Unordered list style
+    "ul-style": "dash",
+
+    // MD005 - Inconsistent indentation for list items at the same level
+    "list-indent": true,
+
+    // MD007 - Unordered list indentation
+    "ul-indent": {
+      "indent": 4
+    },
+
+    // MD009 - Trailing spaces
+    "no-trailing-spaces": true,
+
+    // MD010 - Hard tabs
+    "no-hard-tabs": true,
+
+    // MD011 - Reversed link syntax
+    "no-reversed-links": true,
+
+    // MD012 - Multiple consecutive blank lines
+    "no-multiple-blanks": true,
+
+    // MD014 - Dollar signs used before commands without showing output
+    "commands-show-output": false,
+
+    // MD018 - No space after hash on atx style heading
+    "no-missing-space-atx": true,
+
+    // MD019 - Multiple spaces after hash on atx style heading
+    "no-multiple-space-atx": true,
+
+    // MD022 - Headings should be surrounded by blank lines
+    "blanks-around-headings": {
+      "lines_below": 1
+    },
+    // MD024 - Multiple headings with the same content
+    "no-duplicate-heading": false,
+
+    // MD025 - Multiple top-level headings in the same document
+    "single-h1": false,
+
+    // MD026 - Trailing punctuation in heading
+    "no-trailing-punctuation": false,
+
+    // MD027 - Multiple spaces after blockquote symbol
+    "no-multiple-space-blockquote": true,
+
+    // MD029 - Ordered list item prefix
+    "ol-prefix": "ordered",
+
+    // MD031 - Fenced code blocks should be surrounded by blank lines
+    "blanks-around-fences": true,
+
+    // MD032 - Lists should be surrounded by blank lines
+    "blanks-around-lists": false,
+
+    // MD033 - Inline HTML
+    "no-inline-html": true,
+
+    // MD034 - Bare URL used
+    "no-bare-urls": true,
+
+    // MD035 - Horizontal rule style
+    "hr-style": "consistent",
+
+    // MD036 - Emphasis used instead of a heading
+    "no-emphasis-as-heading": false,
+
+    // MD037 - Spaces inside emphasis markers
+    "no-space-in-emphasis": true,
+
+    // MD038 - Spaces inside code span elements
+    "no-space-in-code": true,
+
+    // MD039 - Spaces inside link text
+    "no-space-in-links": true,
+
+    // MD041 - First line in a file should be a top-level heading
+    "first-line-h1": false,
+
+    // MD042 - No empty links
+    "no-empty-links": true,
+
+    // MD045 - Images should have alternate text (alt text)
+    "no-alt-text": false,
+
+    // MD046 - Code block style
+    "code-block-style": "consistent",
+
+    // MD047 - Files should end with a single newline character
+    "single-trailing-newline": true,
+
+    // MD048 - Code fence style
+    "code-fence-style": "backtick",
+
+    // MD049 - Emphasis style
+    "emphasis-style": "underscore",
+
+    // MD050 - Strong style
+    "strong-style": "asterisk",
+
+    // MD051 - Link fragments should be valid
+    "link-fragments": true,
+
+    // MD054 - Link and image style
+    "link-image-style": {
+      // <https://example.com>
+      "autolink": true,
+
+      // [url][]
+      // [url]: https://example.com
+      "collapsed": false,
+
+      // [link][url]
+      // [url]: https://example.com
+      "full": true,
+
+      // [link](https://example.com)
+      "inline": true,
+
+      // [url]
+      // [url]: https://example.com
+      "shortcut": false,
+
+      // [https://example.com](https://example.com)
+      "url_inline": true
+    },
+
+    // MD055 - Table pipe style
+    // leading_and_trailing would also be acceptable
+    "table-pipe-style": "consistent",
+
+    // MD056 - Table column count
+    // Every row must have the same number of columns
+    "table-column-count": true,
+
+    // MD058 - Tables should be surrounded by blank lines
+    "blanks-around-tables": true
+  },
+
+  "[django-html][handlebars][hbs][mustache][jinja][jinja-html][nj][njk][nunjucks][twig]": {
+    "editor.defaultFormatter": "monosans.djlint"
+  },
+
+  "djlint.useVenv": false,
+  "djlint.pythonPath": "/home/user/.local/pipx/venvs/djlint/bin/python",
+
+  "nebulaOni.update.restoreConfiguration": {
+    "themeSettings": {
+      "background": "Grey",
+      "main": "Bumblebee",
+      "highlight": "Ultra Violet",
+      "focusBorder": "ON",
+      "fontStyle": "Italic",
+      "syntaxBrightness": "Normal",
+      "comments": "Dark Violet",
+      "favorite": "OFF"
+    },
+    "favoriteSettings": {
+      "background": "Grey",
+      "main": "Aqua",
+      "highlight": "Clear",
+      "focusBorder": "ON",
+      "fontStyle": "Italic",
+      "comments": "Dark Grey",
+      "favorite": "Nebula Oni (Pegasus)"
+    }
+  },
+
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+
+  "cSpell.enabled": false,
+  "cSpell.showStatus": true,
+  "cSpell.language": "en-GB",
+  "cSpell.enabledLanguageIds": [
+    "Log",
+    "Mermaid",
+    "asciidoc",
+    "c",
+    "clojure",
+    "coffeescript",
+    "cpp",
+    "csharp",
+    "css",
+    "diff",
+    "dockerfile",
+    "elixir",
+    "erb",
+    "feature",
+    "gemfile",
+    "gherkin",
+    "git-commit",
+    "git-rebase",
+    "gitignore",
+    "go",
+    "graphql",
+    "handlebars",
+    "haskell",
+    "helm",
+    "home-assistant",
+    "hosts",
+    "html",
+    "http",
+    "ignore",
+    "ini",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "jsx",
+    "latex",
+    "less",
+    "log",
+    "makefile",
+    "markdown",
+    "mermaid",
+    "objective-c",
+    "objective-cpp",
+    "ocaml",
+    "pdf",
+    "perl",
+    "php",
+    "pip-requirements",
+    "plaintext",
+    "powershell",
+    "properties",
+    "pug",
+    "python",
+    "r",
+    "restructuredtext",
+    "ruby",
+    "rust",
+    "scala",
+    "scss",
+    "shellscript",
+    "sql",
+    "ssh_config",
+    "swift",
+    "terraform",
+    "tex",
+    "text",
+    "toml",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "xml",
+    "yaml",
+    "yml"
+  ]
+}
