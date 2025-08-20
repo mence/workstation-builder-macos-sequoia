@@ -40,24 +40,4 @@ export HOMEBREW_VERBOSE_USING_DOTS=1
 
 info_message "Homebrew > Beginning installation of Bundle depencies ..."
 
-info_message "Homebrew > Building OpenSSL@3 from source ..."
-
-brew install --formula --build-from-source ./openssl@3.rb
-
-info_message "Homebrew > Building frei0r from source ..."
-
-brew install --formula --build-from-source ./frei0r.rb
-
-info_message "Homebrew > Building cjson from source ..."
-
-brew install --formula --build-from-source ./cjson.rb
-
-info_message "Homebrew > Building libvidstab from source ..."
-
-brew install --formula --build-from-source ./libvidstab.rb
-
-warning_message "Homebrew > Git > You may need to manually install git in a debug mode to ignore an error in the t-git-credential-netrc.sh test file: brew install --verbose --debug git"
-
-info_message "Homebrew > Install curl ... "
-
-brew install --verbose curl
+info_message "Homebrew > Bundle depencies > Install finished ..."
