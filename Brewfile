@@ -25,6 +25,7 @@ brew "imagemagick"
 brew "nmap"                 # Port scanning utility for large networks
 brew "node"
 brew "nvm"
+brew "markdownlint-cli"     # CLI for Node.js style checker and lint tool for Markdown files
 brew "pandoc"               # Swiss-army knife of markup format conversion
 brew "pstree"               # Show ps output as a tree
 brew "shellcheck"
