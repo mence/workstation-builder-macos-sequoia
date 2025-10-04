@@ -13,22 +13,22 @@ tap "buo/cask-upgrade"      # brew-cask-upgrade: a command-line tool for upgradi
 # ============================================================
 
 brew "bat"                  # Clone of cat(1) with syntax highlighting and Git integration
-brew "curl"
+brew "curl"                 # Get a file from an HTTP, HTTPS or FTP server
 brew "entr"                 # Run arbitrary commands when files change
 brew "fastfetch"            # Like neofetch, but much faster because written mostly in C
 brew "fd"                   # Simple, fast and user-friendly alternative to find
 brew "ffmpeg"               # Play, record, convert, and stream audio and video
-brew "git"
+brew "git"                  # Distributed revision control system
 brew "htop"                 # Improved top (interactive process viewer)
 brew "icdiff"               # Improved colored diff
-brew "imagemagick"
+brew "imagemagick"          # Tools and libraries to manipulate images in many formats
 brew "nmap"                 # Port scanning utility for large networks
-brew "node"
-brew "nvm"
+brew "node"                 # Platform built on V8 to build network applications
+brew "nvm"                  # Manage multiple Node.js versions
 brew "markdownlint-cli"     # CLI for Node.js style checker and lint tool for Markdown files
 brew "pandoc"               # Swiss-army knife of markup format conversion
 brew "pstree"               # Show ps output as a tree
-brew "shellcheck"
+brew "shellcheck"           # Static analysis and lint tool, for (ba)sh scripts
 brew "the_silver_searcher"  # Code-search similar to ack
 brew "tlrc"                 # Official tldr client written in Rust
 brew "tree"                 # Display directories as trees (with optional color/HTML output)
@@ -49,7 +49,7 @@ cask "balenaetcher"         # Tool to flash OS images to SD cards & USB drives
 cask "basictex"             # Compact TeX distribution as alternative to the full TeX Live / MacTeX
 cask "discord"              # Voice and text chat software
 cask "dropbox"              # Client for the Dropbox cloud storage service
-cask "espanso"				# Cross-platform Text Expander written in Rust
+cask "espanso"              # Cross-platform Text Expander written in Rust
 cask "find-any-file"        # File finder
 cask "firefox@esr"          # Web browser
 cask "gitx"                 # Git GUI
@@ -68,7 +68,7 @@ cask "vscodium"             # Binary releases of VS Code without MS branding/tel
 cask "webviewscreensaver"   # Screen saver that displays web pages
 cask "xbar"                 # View output from scripts in the menu bar
 cask "altserver"            # iOS App Store alternative
-cask "little-snitch"
+cask "little-snitch"        # Host-based application firewall
 cask "qlmarkdown"           # Quick Look generator for Markdown files
 cask "signal"               # Instant messaging application focusing on security
 cask "utm"                  # Virtual machines UI using QEMU
@@ -93,7 +93,7 @@ cask "font-source-code-pro"
 # ============================================================
 
 # cask "mence/mence/alfred@2.9_466"  # Application launcher and productivity software
-cask "mence/mence/dozer@4"    # Tool to hide status bar icons
+cask "mence/mence/dozer@4"         # Tool to hide status bar icons
 cask "mence/mence/nvalt@2.2.8"
-# cask "mence/mence/soulver2"  # TODO: Fix file
+# cask "mence/mence/soulver2"      # TODO: Fix file
 # cask "mence/mence/keyboard-maestro@6.4.8"
